@@ -1,0 +1,12 @@
+applications:
+- path: JavaCloudantApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Blo0dChain
+  host: Blo0dChain
+  disk_quota: 1024M
+  services:
+  - Blockchain-18
+  - Blo0dChain-cloudantNoSQLDB
+  - availability-monitoring-auto
